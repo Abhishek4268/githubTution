@@ -67,7 +67,7 @@ public class TutionController {
 		return tutionService.serviceSortPage(pageno,pagesize);
 	}
 	
-	
+	//post mapping add changes made in that
 	@PostMapping("/api/add")
 	public void ControllerAdd(@RequestBody Tution1 tution1 ,HttpServletRequest request, HttpServletResponse response ){
 
